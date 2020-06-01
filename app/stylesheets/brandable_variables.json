@@ -4,7 +4,7 @@
   "variables": [{
     "variable_name": "ic-brand-primary",
     "type": "color",
-    "default": "#54afa7"
+    "default": "#008EE2"
   },{
     "variable_name": "ic-brand-font-color-dark",
     "type": "color",
@@ -12,7 +12,7 @@
   },{
     "variable_name": "ic-link-color",
     "type": "color",
-    "default": "#54AFA7"
+    "default": "#008EE2"
   },{
     "variable_name": "ic-brand-button--primary-bgd",
     "type": "color",
@@ -24,7 +24,7 @@
   },{
     "variable_name": "ic-brand-button--secondary-bgd",
     "type": "color",
-    "default": "#364564"
+    "default": "#2D3B45"
   },{
     "variable_name": "ic-brand-button--secondary-text",
     "type": "color",
@@ -37,12 +37,12 @@
   {
     "variable_name": "ic-brand-global-nav-bgd",
     "type": "color",
-    "default": "#1D3D3A"
+    "default": "#394B58"
   },
   {
     "variable_name": "ic-brand-global-nav-ic-icon-svg-fill",
     "type": "color",
-    "default": "#f2f2f2"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-global-nav-ic-icon-svg-fill--active",
@@ -52,7 +52,7 @@
   {
     "variable_name": "ic-brand-global-nav-menu-item__text-color",
     "type": "color",
-    "default": "#f2f2f2"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-global-nav-menu-item__text-color--active",
@@ -62,7 +62,7 @@
   {
     "variable_name": "ic-brand-global-nav-avatar-border",
     "type": "color",
-    "default": "#D0FEFA"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-global-nav-menu-item__badge-bgd",
@@ -77,19 +77,19 @@
   {
     "variable_name": "ic-brand-global-nav-logo-bgd",
     "type": "color",
-    "default": "#1D3D3A"
+    "default": "#394B58"
   },
   {
     "variable_name": "ic-brand-header-image",
     "type": "image",
     "accept": "image/png,image/gif,image/jpeg,image/svg+xml,image/svg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/icon-white.png"
+    "default": "/images/canvas_logomark_only@2x.png"
   },
   {
     "variable_name": "ic-brand-mobile-global-nav-logo",
     "type": "image",
     "accept": "image/png,image/gif,image/jpeg,image/svg+xml,image/svg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/eskwelabs.svg"
+    "default": "/images/mobile-global-nav-logo.svg"
   }
 ]},
 {
@@ -102,17 +102,17 @@
   },{
     "variable_name": "ic-brand-watermark-opacity",
     "type": "percentage",
-    "default": "0.2"
+    "default": "1.0"
   },{
     "variable_name": "ic-brand-favicon",
     "type": "image",
     "accept": "image/vnd.microsoft.icon,image/x-icon,image/png,image/gif",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/favicon.png"
+    "default": "/images/favicon.ico"
   },{
     "variable_name": "ic-brand-apple-touch-icon",
     "type": "image",
     "accept": "image/png",
-    "default": "http://d1igpor9ui96fr.cloudfront.net/apple-icon-180x180.png"
+    "default": "/images/apple-touch-icon.png"
   },{
     "variable_name": "ic-brand-msapplication-tile-color",
     "type": "color",
@@ -121,17 +121,17 @@
     "variable_name": "ic-brand-msapplication-tile-square",
     "type": "image",
     "accept": "image/png,image/gif,image/jpeg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/ms-icon-310x310.png"
+    "default": "/images/windows-tile.png"
   },{
     "variable_name": "ic-brand-msapplication-tile-wide",
     "type": "image",
     "accept": "image/png,image/gif,image/jpeg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/logo-with-text.png"
+    "default": "/images/windows-tile-wide.png"
   },{
     "variable_name": "ic-brand-right-sidebar-logo",
     "type": "image",
     "accept": "image/svg+xml,image/svg,image/png,image/gif,image/jpeg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/login-header.png"
+    "default": ""
   }
 ]},
 {
@@ -139,34 +139,34 @@
   "variables": [{
     "variable_name": "ic-brand-Login-body-bgd-color",
     "type": "color",
-    "default": "#54afa7"
+    "default": "#394B58"
   },
   {
     "variable_name": "ic-brand-Login-body-bgd-image",
     "type": "image",
     "accept": "image/png,image/svg+xml,image/svg,image/gif,image/jpeg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/login-background.png"
+    "default": ""
   },
   {
     "variable_name": "ic-brand-Login-body-bgd-shadow-color",
     "type": "color",
-    "default": "transparent"
+    "default": "#2D3B45"
   },
   {
     "variable_name": "ic-brand-Login-logo",
     "type": "image",
     "accept": "image/png,image/gif,image/jpeg, image/svg+xml,image/svg",
-    "default": "https://d1igpor9ui96fr.cloudfront.net/favicon.png"
+    "default": "/images/login/canvas-logo.svg"
   },
   {
     "variable_name": "ic-brand-Login-Content-bgd-color",
     "type": "color",
-    "default": "#ffffff"
+    "default": "none"
   },
   {
     "variable_name": "ic-brand-Login-Content-border-color",
     "type": "color",
-    "default": "#efefef"
+    "default": "none"
   },
   {
     "variable_name": "ic-brand-Login-Content-inner-bgd",
@@ -191,17 +191,17 @@
   {
     "variable_name": "ic-brand-Login-Content-label-text-color",
     "type": "color",
-    "default": "#444444"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-Login-Content-password-text-color",
     "type": "color",
-    "default": "#444444"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-Login-footer-link-color",
     "type": "color",
-    "default": "#2773e2"
+    "default": "#ffffff"
   },
   {
     "variable_name": "ic-brand-Login-footer-link-color-hover",
@@ -211,7 +211,7 @@
   {
     "variable_name": "ic-brand-Login-instructure-logo",
     "type": "color",
-    "default": "#aaaaaa"
+    "default": "#ffffff"
   }
 ]
 }]
